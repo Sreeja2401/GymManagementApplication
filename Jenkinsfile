@@ -15,7 +15,7 @@ script {
 
 // def modules = findFiles(glob: '**/pom.xml')
 
-def modules = ['gymapplication1', 'reportapplication','notificationapplication','GymAuthenticationService-1','eurekaserver','GatewayServer','GymCommons']
+def modules = ['gymapplication1','reportapplication','GymAuthenticationService-1','eurekaserver','GatewayServer','notificationapplication','GymCommons']
 
 for (def module in modules) {
 
