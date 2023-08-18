@@ -10,8 +10,5 @@ import org.springframework.boot.test.context.SpringBootTest;
 @EnableAutoConfiguration(exclude = {KafkaAutoConfiguration.class, DataSourceAutoConfiguration.class})
 class GymreportapplicationApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
 
 }

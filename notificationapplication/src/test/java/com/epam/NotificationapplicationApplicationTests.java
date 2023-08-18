@@ -10,8 +10,4 @@ import org.springframework.boot.test.context.SpringBootTest;
 @EnableAutoConfiguration(exclude = {KafkaAutoConfiguration.class, DataSourceAutoConfiguration.class})
 class NotificationapplicationApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
-
 }
